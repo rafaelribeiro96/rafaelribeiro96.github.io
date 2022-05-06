@@ -1,0 +1,22 @@
+h2 {
+    color: black;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+body {
+    background-color: rgb(229, 228, 226);
+}
+
+#menu {
+    background-color: rgb(216, 216, 216);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+
+.list-style {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+}
