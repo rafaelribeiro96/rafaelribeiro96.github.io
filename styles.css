@@ -1,0 +1,107 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+    body {
+        background-color: rgb(229, 228, 226);
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+            }
+
+    
+
+    h1 {
+        
+        font-weight: 600;
+                
+    }
+
+    h2 {
+        color: black;
+        background-color: white;
+        font-size: 1.5em;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+       
+    .list-style {
+        font-style: italic;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    .menu {
+        
+        background-color: rgb(99, 99, 99);
+        font-family: sans-serif;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 2px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    header {
+        top: 0;
+        position: fixed;
+        max-height: 100px;
+        width: 98%;
+        background-color: rgb(158, 158, 158);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #tituloPortfolio {
+        margin-top: 120px;
+        width: 50%;
+        display: inline-block;
+        float: left;
+        
+    }
+
+    #fundoPerfil{
+        background-color: rgb(158, 158, 158);
+        margin-top: 45px;
+        width: 40%;
+        display: inline-block;
+
+        
+    }
+
+    #foto-perfil {
+        border-radius: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+
+    
+
+    #habilidades,#curiosidades{
+        height: 250px;
+        width: 48%;
+        display: inline-block;
+        margin-top: auto;
+        margin: auto;
+        
+    }
+
+    #redesSociais a {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2%;
+    }
+
+    
+
+  div {
+      border: 2px solid red;
+  }

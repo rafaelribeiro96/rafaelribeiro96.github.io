@@ -6,99 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Rafael Ribeiro</title>
     <link rel="shortcut icon" href="emoji.png">
+    <link rel="stylesheet" href="styles.css">
     
-<style>
-
-
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
-    h1 {
-        
-        font-weight: 600;
-                
-    }
-
-    h2 {
-        color: black;
-        background-color: white;
-        font-size: 1.5em;
-    }
-
-    body {
-        background-color: rgb(229, 228, 226);
-        font-family: 'Montserrat', sans-serif;
-            }
-
-       
-    .list-style {
-        font-style: italic;
-        font-weight: bold;
-        line-height: 20px;
-    }
-
-    #foto-perfil {
-        border-radius: 5%;
-        background-color: rgb(158, 158, 158);
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .menu {
-        
-        background-color: rgb(99, 99, 99);
-        font-family: sans-serif;
-        font-size: 15px;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        padding: 5px;
-        border-radius: 2px;
-        line-height: 30px;
-        text-align: center;
-        font-weight: 700;
-    }
-
-    header {
-        top: 0;
-        position: fixed;
-        max-height: 100px;
-        width: 98%;
-        background-color: rgb(158, 158, 158);
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-
-    }
-
-  
-</style>
 
 </head>
 
 <body>
 
-    <header>
-    <a class="menu" href="#sobreMim">SOBRE MIM</a>
-    <a class="menu" href="#habilidades">HABILIDADES</a>
-    <a class="menu" href="#curiosidades">CURIOSIDADES</a>
-    <a class="menu" href="#redesSociais">REDES</a>
-    <a class="menu" href="#fotosV">FOTOS</a>
-    </header>
-
+    <div>
+        <header>
+        <a class="menu" href="#sobreMim">SOBRE MIM</a>
+        <a class="menu" href="#habilidades">HABILIDADES</a>
+        <a class="menu" href="#curiosidades">CURIOSIDADES</a>
+        <a class="menu" href="#redesSociais">REDES</a>
+        <a class="menu" href="#fotosV">FOTOS</a>
+        </header>
+    </div>
     
- <center>
 
-    <h1><br><br>PORTFÓLIO RAFAEL RIBEIRO</h1>
+    <div id="tituloPortfolio">
+    <h1>PORTFÓLIO<br>RAFAEL RIBEIRO</h1>
+    </div>
 
-    <p><img src="fotorafael.jpg"  alt="Foto Rafael Ribeiro sorrindo" width="200px" id="foto-perfil"></p>
+    <div id="fundoPerfil">
+        <div><p><img src="fotorafael.jpg" id="foto-perfil" alt="Foto Rafael Ribeiro sorrindo" width="200px" ></p>
+        </div>
+    </div>
+    
+    <div>
+        <h2 id="sobreMim">Sobre mim:</h3>
+        <p>Olá, meu nome é Rafael, nascido e criado em Belo Horizonte/MG, 26 anos. <strong> Sou formado em Técnico de Informática, graduado em Direito e pós graduado em Direito Digital.</strong> <br><br>Comecei minha carreira dentro da área de TI logo ao sair do ensino médio, quando realizei o técnico, porém após atuar por cerca de um ano e meio na área acabei entrando no mundo do Direito, onde me formei, passei na OAB durante o curso, logo depois realizei a pós graduação em Direito Digital, e advoguei por cerca de 2 anos me tornando advogado Pleno nos escritórios em que atuei. <br><br>Agora voltei ao mundo da tecnologia, onde estou no curso de formação de desenvolvimento web da Trybe, pretendendo alcançar o conhecimento e experiência para me tornar um desenvolvedor full-stack.</p>
+    </div>
 
-    <h2 id="sobreMim">Sobre mim:</h3>
-    <p align="justify">Olá, meu nome é Rafael, nascido e criado em Belo Horizonte/MG, 26 anos. <strong> Sou formado em Técnico de Informática, graduado em Direito e pós graduado em Direito Digital.</strong> <br><br>Comecei minha carreira dentro da área de TI logo ao sair do ensino médio, quando realizei o técnico, porém após atuar por cerca de um ano e meio na área acabei entrando no mundo do Direito, onde me formei, passei na OAB durante o curso, logo depois realizei a pós graduação em Direito Digital, e advoguei por cerca de 2 anos me tornando advogado Pleno nos escritórios em que atuei. <br><br>Agora voltei ao mundo da tecnologia, onde estou no curso de formação de desenvolvimento web da Trybe, pretendendo alcançar o conhecimento e experiência para me tornar um desenvolvedor full-stack.</p>
-
-    <h2 id="habilidades">Habilidades:</h3>
-    <ul class="list-style" align="justify">
+    <div id="habilidades">
+    <h2>Habilidades:</h3>
+    <ul class="list-style" >
         <li>Comunicação</li>
         <li>Negócios</li>
         <li>Análise jurídica</li>
@@ -109,11 +51,11 @@
         <li>JavaScript básico</li>
         <li>SQL básico</li>
     </ul>
-
+    </div>
    
-
-    <h2 id="curiosidades">Curiosidades:</h3>
-    <ul class="list-style" align="justify">
+    <div id="curiosidades">
+    <h2>Curiosidades:</h3>
+    <ul class="list-style">
         <li>Sou noivo de uma mulher maravilhosa</li>
         <li>Adoramos viajar e conhecer lugares novos</li>
         <li>Já conheci 8 países diferentes</li>
@@ -122,32 +64,33 @@
         <li>Você disse Coca-Cola, Churrasco e Batata Frita?</li>
         <li>Tenho uma coleção bem grande de HotWheels</li>
         <li>E tenho uma coleção pequena de Figures</li>
-
     </ul>
+    </div>
 
-    <h2 id="redesSociais">Redes sociais:</h3>
-    <p><a href="http://www.instagram.com/faelgalo96/" target="_blank" ><img src="logoinstagram.png" width="40px" alt="logo instagram"></a>
-    <a href="https://www.linkedin.com/in/rafaelfeliperibeiro/" target="_blank"><img src="logolinkedin.png" width="40px" alt="logo linkedin"></a>
-    <a href="http://mailto:rafaelfelipe.r@hotmail.com" target="_blank"> <img src="email.png" width="38px" alt="logo email"></a>
-    <a href="https://github.com/rafaelribeiro96" target="_blank"><img src="logogithub.png" width="40px" alt="logo github"></a>
-    </p>
-
+    <div id="redesSociais">
+        <h2>Redes sociais:</h3>
+        <a href="http://www.instagram.com/faelgalo96/" target="_blank" ><img src="logoinstagram.png" width="40px" alt="logo instagram"></a>
+        <a href="https://www.linkedin.com/in/rafaelfeliperibeiro/" target="_blank"><img src="logolinkedin.png" width="40px" alt="logo linkedin"></a>
+        <a href="http://mailto:rafaelfelipe.r@hotmail.com" target="_blank"> <img src="email.png" width="38px" alt="logo email"></a>
+        <a href="https://github.com/rafaelribeiro96" target="_blank"><img src="logogithub.png" width="40px" alt="logo github"></a>
+    </div>
     
-    <h2 id="fotosV">Algumas fotos de viagens:</h3>
-    <img src="italia.jpg" alt="italia" height="200px">
-    <img src="lisboa.jpg" alt="lisboa" height="200px">
-    <img src="madrid.jpg" alt="Madrid" height="200px">
-    <img src="paris2.jpg" alt="Paris" height="200px">
-    <img src="paris.jpg" alt="Paris" height="200px">
-    <img src="paris3.jpg" alt="Paris" height="200px">
-    <img src="bruges.jpg" alt="bruges" height="200px">
-    <img src="bruges2.jpg" alt="bruxelas" height="200px">
-    <img src="dublin.jpg" alt="Dublin" height="200px">
-    <img src="amsterdam.jpg" alt="amsterdam" height="200px">
-    <img src="amsterdam2.jpg" alt="amsterdam" height="200px">
-    <img src="" alt="" height="200px">
-
+    <div>
+        <h2 id="fotosV">Algumas fotos de viagens:</h3>
+        <img src="italia.jpg" alt="italia" height="200px">
+        <img src="lisboa.jpg" alt="lisboa" height="200px">
+        <img src="madrid.jpg" alt="Madrid" height="200px">
+        <img src="paris2.jpg" alt="Paris" height="200px">
+        <img src="paris.jpg" alt="Paris" height="200px">
+        <img src="paris3.jpg" alt="Paris" height="200px">
+        <img src="bruges.jpg" alt="bruges" height="200px">
+        <img src="bruges2.jpg" alt="bruxelas" height="200px">
+        <img src="dublin.jpg" alt="Dublin" height="200px">
+        <img src="amsterdam.jpg" alt="amsterdam" height="200px">
+        <img src="amsterdam2.jpg" alt="amsterdam" height="200px">
+        <img src="" alt="" height="200px">
+    </div>
     
-</center>
+
 </body>
 </html>
