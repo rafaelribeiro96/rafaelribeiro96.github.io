@@ -6,13 +6,15 @@
         background-color: rgb(229, 228, 226);
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
             }
 
     
 
     h1 {
         
-        font-weight: 600;
+        font-weight: 200;
                 
     }
 
@@ -51,28 +53,25 @@
         top: 0;
         position: fixed;
         max-height: 100px;
-        width: 98%;
+        width: 90%;
+        margin-left: 2%;
         background-color: rgb(158, 158, 158);
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
+        
     }
     
     #tituloPortfolio {
-        margin-top: 120px;
-        width: 50%;
-        display: inline-block;
-        float: left;
-        
+        text-align: center;
+        padding-top: 30px;        
     }
 
     #fundoPerfil{
-        background-color: rgb(158, 158, 158);
-        margin-top: 45px;
-        width: 40%;
+        width: 48%;
         display: inline-block;
-
-        
+        vertical-align:top;
+        padding-top: 10px;
     }
 
     #foto-perfil {
@@ -80,14 +79,16 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
-        width: 50%;
-        
+        height: auto;        
     }
 
-    
+    #sobreMim {
+        width: 48%;
+        display: inline-block;
+    }
 
     #habilidades, #curiosidades{
-        width: 47%;
+        width: 48%;
         display: inline-block;
         margin: 1px;
         vertical-align: top;
@@ -114,6 +115,6 @@
     }
     
 
-/*   div {
+ /*  div {
       border: 2px solid red;
   } */
