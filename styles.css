@@ -10,7 +10,13 @@
         padding-right: 3%;
             }
 
-    
+    .fundoBloco {
+        background-color: rgb(245 245 245 / 50%);
+        border-radius: 3%;
+        padding: 3%;
+        margin: 5%;
+        box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+    }
 
     h1 {
         
@@ -18,21 +24,32 @@
                 
     }
 
+    #portfolio{
+        color: rgb(109, 148, 109);
+    }
+
     h2 {
-        color: black;
-        background-color: white;
+        color: rgb(109, 148, 109);
+        /* color: rgb(99, 99, 99); */
+        /* background-color: white; */
         font-size: 1.5em;
+        text-align: center;
     }
 
     p{
         text-align: justify;
     }
 
-       
+     
+    
+
     .list-style {
-        font-style: italic;
-        font-weight: bold;
-        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        line-height:1.5;
+                
     }
 
     .menu {
@@ -47,6 +64,7 @@
         line-height: 30px;
         text-align: center;
         font-weight: 700;
+        
     }
 
     header {
@@ -55,10 +73,11 @@
         max-height: 100px;
         width: 90%;
         margin-left: 2%;
-        background-color: rgb(158, 158, 158);
+        background-color: rgb(158 158 158 / 90%);
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
+        box-shadow: 0px 1px 12px rgb(0 0 0 / 90%);
         
     }
     
@@ -68,10 +87,11 @@
     }
 
     #fundoPerfil{
-        width: 48%;
+        width: 40%;
         display: inline-block;
         vertical-align:top;
-        padding-top: 10px;
+        margin-top: 20px;
+        margin-left: 0px;       
     }
 
     #foto-perfil {
@@ -79,16 +99,19 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
-        height: auto;        
+        width: 90%;
+        max-width: 300px;        
     }
 
     #sobreMim {
-        width: 48%;
+        width: 40%;
         display: inline-block;
+        margin-top: 20px;
+        margin-right: 0px;
     }
 
     #habilidades, #curiosidades{
-        width: 48%;
+        width: 40%;
         display: inline-block;
         margin: 1px;
         vertical-align: top;
@@ -112,9 +135,10 @@
 
     #fotosV {
         height: 200px;
+        padding-bottom: 5%;
     }
     
 
- /*  div {
+  /* div {
       border: 2px solid red;
   } */
