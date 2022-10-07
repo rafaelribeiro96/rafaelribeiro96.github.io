@@ -11,7 +11,6 @@ function ThemeContextProvider({ children }) {
   const [themeType, setThemeType] = useState(localStorage
     .getItem('themeType') || 'lightTheme');
   const [theme, setTheme] = useState(themeData[themeColor].lightTheme);
-  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const selectThemeColor = useCallback(
     ({ target }) => {
@@ -32,14 +31,11 @@ function ThemeContextProvider({ children }) {
     setTheme(themeData[themeColor][themeType]);
   }, [themeColor, themeType]);
 
-  const setHandleDrawer = useCallback(() => setDrawerOpen(!drawerOpen), [drawerOpen]);
-
   const contextValue = useMemo(
     () => ({
-      themeColor, selectThemeColor, theme, selectThemeType, drawerOpen, setHandleDrawer,
+      themeColor, selectThemeColor, theme, selectThemeType,
     }),
-    [themeColor, setThemeColor, themeType, setThemeType, theme, setTheme,
-      drawerOpen, setHandleDrawer],
+    [themeColor, setThemeColor, themeType, setThemeType, theme, setTheme],
   );
 
   return (
