@@ -1,12 +1,12 @@
 import React from 'react';
 // import React, { useContext } from 'react';
 // import context from '../contexts/Context';
-import './Header.css';
+import './Footer.css';
 
-export default function Header() {
+export default function Footer() {
   return (
     <header>
-      <div>Header</div>
+      <div>Footer</div>
     </header>
   );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 // import React, { useContext } from 'react';
 // import context from '../contexts/Context';
-import './Header.css';
+import './Skills.css';
 
-export default function Header() {
+export default function Skills() {
   return (
     <header>
-      <div>Header</div>
+      <div>Skills</div>
     </header>
   );
 }
