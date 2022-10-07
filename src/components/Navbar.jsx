@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 // import React, { useContext } from 'react';
 // import context from '../contexts/Context';
 import './Navbar.css';
@@ -11,12 +11,12 @@ export default function Navbar() {
   } = useContext(ThemeContext);
 
   return (
-    <div id="header">
-      <div>Navbar</div>
-
+    <div id="navbar" className="navbar">
       <div className="button-theme-option">
-
-        <form>
+        <form
+          className="theme-color-form"
+          style={ { color: theme.primary } }
+        >
           <label
             className="theme-color-checkbox-title"
             htmlFor="checkbox-theme"
@@ -49,6 +49,8 @@ export default function Navbar() {
           </label>
         </form>
       </div>
+
+      <div id="sidebar">Navbar</div>
 
     </div>
   );

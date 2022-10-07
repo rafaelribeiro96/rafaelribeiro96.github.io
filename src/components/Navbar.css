@@ -1,4 +1,21 @@
-/* #header {
+.navbar {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  height: 6.5rem;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+#sidebar {
   display: none;
 }
- */
+
+.theme-color-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
