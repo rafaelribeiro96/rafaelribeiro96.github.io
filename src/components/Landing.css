@@ -1,4 +1,4 @@
-#landing {
+.landing {
   align-items: center;
   display: flex;
   height: 100vh;
@@ -16,7 +16,6 @@
 
 .landing-container-left {
   align-items: flex-end;
-  background-color: green;
   display: flex;
   flex: 35%;
   height: 100%;
@@ -26,7 +25,6 @@
 
 .landing-container-right {
   align-items: flex-end;
-  background-color: grey;
   display: flex;
   flex: 65%;
   flex-direction: column;
