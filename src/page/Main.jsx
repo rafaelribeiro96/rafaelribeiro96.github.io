@@ -2,7 +2,7 @@ import React from 'react';
 // import React, { useState, useContext, useEffect } from 'react';
 /* import { useHistory } from 'react-router-dom';
 import context from '../contexts/ContextRecipe'; */
-import './MainPage.css';
+import './Main.css';
 import Navbar from '../components/Navbar';
 import Landing from '../components/Landing';
 import About from '../components/About';
