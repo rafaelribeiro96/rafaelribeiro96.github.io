@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 // import Provider from './context/Provider';
 import Main from './page/Main';
 
@@ -9,7 +9,7 @@ function App() {
     // <Provider>
     <Switch>
       <Route exact path="/" component={ Main } />
-      <Redirect to="/" />
+      {/* <Redirect to="/" /> */}
     </Switch>
     // </Provider>
   );
