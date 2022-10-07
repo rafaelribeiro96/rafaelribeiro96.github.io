@@ -50,7 +50,7 @@ export default function Navbar() {
         </form>
       </div>
 
-      <div id="sidebar">Navbar</div>
+      <div id="sidebar">Sidebar</div>
 
     </div>
   );
