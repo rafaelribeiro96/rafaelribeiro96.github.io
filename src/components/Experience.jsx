@@ -5,8 +5,8 @@ import './Experience.css';
 
 export default function Header() {
   return (
-    <header>
+    <div id="experience">
       <div>Experience</div>
-    </header>
+    </div>
   );
 }

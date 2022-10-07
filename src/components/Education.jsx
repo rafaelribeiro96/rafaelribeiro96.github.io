@@ -5,8 +5,8 @@ import './Education.css';
 
 export default function Education() {
   return (
-    <header>
+    <div id="education">
       <div>Education</div>
-    </header>
+    </div>
   );
 }

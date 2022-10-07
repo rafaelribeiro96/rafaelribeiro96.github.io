@@ -5,8 +5,8 @@ import './Contacts.css';
 
 export default function Contacts() {
   return (
-    <header>
+    <div id="contacts">
       <div>Contacts</div>
-    </header>
+    </div>
   );
 }

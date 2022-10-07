@@ -5,7 +5,7 @@ import './Landing.css';
 
 export default function Landing() {
   return (
-    <div className="landing">
+    <div id="landing">
       <div className="landing-container">
         <div className="landing-container-left">Landing Left</div>
         <div className="landing-container-right">Landing Right</div>

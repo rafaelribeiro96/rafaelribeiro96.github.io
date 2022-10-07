@@ -5,8 +5,8 @@ import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <header className="header">
+    <div id="header">
       <div>Navbar</div>
-    </header>
+    </div>
   );
 }

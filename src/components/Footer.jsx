@@ -5,8 +5,8 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <header>
+    <div id="footer">
       <div>Footer</div>
-    </header>
+    </div>
   );
 }

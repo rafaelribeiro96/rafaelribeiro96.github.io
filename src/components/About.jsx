@@ -5,8 +5,8 @@ import './About.css';
 
 export default function About() {
   return (
-    <header>
+    <div id="about">
       <div>About</div>
-    </header>
+    </div>
   );
 }

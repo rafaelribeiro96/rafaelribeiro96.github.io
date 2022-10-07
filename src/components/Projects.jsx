@@ -5,8 +5,8 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <header>
+    <div id="projects">
       <div>Projects</div>
-    </header>
+    </div>
   );
 }

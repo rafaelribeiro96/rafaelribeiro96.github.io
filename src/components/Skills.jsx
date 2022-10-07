@@ -5,8 +5,8 @@ import './Skills.css';
 
 export default function Skills() {
   return (
-    <header>
+    <div id="skills">
       <div>Skills</div>
-    </header>
+    </div>
   );
 }
