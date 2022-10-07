@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <header>
+    <header className="header">
       <div>Navbar</div>
     </header>
   );
