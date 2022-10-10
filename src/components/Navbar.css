@@ -13,6 +13,42 @@
   display: none;
 }
 
+.navbar-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+.navbar-container > h1 {
+
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: BestermindRegular;
+  font-size: 2.5rem;
+  user-select: none;
+}
+
+.button-theme-option {
+  font-size: x-small;
+}
+
+.button-theme-option input {
+  margin-left: 5px;
+}
+
+.button-theme-option select {
+  font-size: x-small;
+  margin-left: 5px;
+}
+
+.button-theme-option option {
+  font-size: x-small;
+
+  /* width: 1px; */
+}
+
 .theme-color-form {
   align-items: center;
   display: flex;
