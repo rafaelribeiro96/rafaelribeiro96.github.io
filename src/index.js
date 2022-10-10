@@ -5,6 +5,11 @@ import App from './App';
 import './index.css';
 import ThemeContextProvider from './context/ThemeContext';
 
+/* import reportWebVitals from './reportWebVitals'; */
+
+/* import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"; */
+
 ReactDOM.render(
   <HashRouter>
     <ThemeContextProvider>
@@ -13,3 +18,5 @@ ReactDOM.render(
   </HashRouter>,
   document.getElementById('root'),
 );
+
+/* reportWebVitals(); */

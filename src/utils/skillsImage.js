@@ -1,3 +1,60 @@
+/* eslint max-lines: off */
+/* eslint-disable max-lines-per-function */
+
+import html from '../assets/svg/skills/html.svg';
+import docker from '../assets/svg/skills/docker.svg';
+import css from '../assets/svg/skills/css.svg';
+import javascript from '../assets/svg/skills/javascript.svg';
+import react from '../assets/svg/skills/react.svg';
+import typescript from '../assets/svg/skills/typescript.svg';
+import mongoDB from '../assets/svg/skills/mongoDB.svg';
+import mysql from '../assets/svg/skills/mysql.svg';
+import python from '../assets/svg/skills/python.svg';
+import git from '../assets/svg/skills/git.svg';
+import jest from '../assets/svg/skills/jest.svg';
+import rtl from '../assets/svg/skills/rtl.svg';
+import redux from '../assets/svg/skills/redux.svg';
+import nodejs from '../assets/svg/skills/nodeJs.svg';
+
+export const skillsImage = (skill) => {
+  const skillID = skill.toLowerCase();
+  switch (skillID) {
+  case 'html':
+    return html;
+  case 'docker':
+    return docker;
+  case 'css':
+    return css;
+  case 'javascript':
+    return javascript;
+  case 'react':
+    return react;
+  case 'typescript':
+    return typescript;
+  case 'mongodb':
+    return mongoDB;
+  case 'mysql':
+    return mysql;
+  case 'python':
+    return python;
+  case 'git':
+    return git;
+  case 'jest':
+    return jest;
+  case 'rtl':
+    return rtl;
+  case 'redux':
+    return redux;
+  case 'node js':
+    return nodejs;
+  default:
+    return null;
+  }
+};
+
+export default skillsImage;
+
+/*
 import html from '../assets/svg/skills/html.svg';
 import photoshop from '../assets/svg/skills/photoshop.svg';
 import illustrator from '../assets/svg/skills/illustrator.svg';
@@ -35,8 +92,7 @@ import jest from '../assets/svg/skills/jest.svg';
 import rtl from '../assets/svg/skills/rtl.svg';
 import redux from '../assets/svg/skills/redux.svg';
 import nodejs from '../assets/svg/skills/nodeJs.svg';
-
-export const skillsImage = (skill) => {
+ export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
   case 'html':
@@ -117,5 +173,4 @@ export const skillsImage = (skill) => {
     return null;
   }
 };
-
-export default skillsImage;
+ */

@@ -1,0 +1,125 @@
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+
+
+.projects--header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  width: 100%;
+}
+
+
+.projects--header h1 {
+  font-family: var(--primaryFont);
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+
+.projects--body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects--bodyContainer {
+  align-items: center;
+  display: flex;
+  gap: 4.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.projects--viewAll {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.projects--viewAll a button {
+  align-items: center;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  display: flex;
+  font-family: var(--primaryFont);
+  font-size: 1.05rem;
+  font-weight: 500;
+  height: 48px;
+  justify-content: space-between;
+  outline: none;
+  padding-left: 1.5rem;
+  text-transform: inherit;
+  width: 150px;
+}
+
+
+@media ( min-width : 992px ) and ( max-width : 1380px ) {
+
+}
+
+
+@media screen and ( max-width : 992px ) {
+
+  .projects--bodyContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and ( max-width : 800px ) {
+
+  .projects--header h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .projects--header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .projects--viewAll {
+    margin-top: 4rem;
+    position: relative;
+  }
+
+  .projects--viewAll a {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}
+
+/* @media screen and ( max-width : 400px ) {
+
+}
+
+@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and ( device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
+
+}
+
+
+@media only screen and ( device-width : 768px ) {
+
+}
+ */

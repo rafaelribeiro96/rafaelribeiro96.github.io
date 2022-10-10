@@ -9,7 +9,6 @@ export const skillsData = [
   'Docker',
   'MySQL',
   'Node JS',
-  'Sequelize',
   'Typescript',
 ];
 

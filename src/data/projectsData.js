@@ -11,7 +11,8 @@ export const projectsData = [
   {
     id: 1,
     projectName: 'App de Receitas',
-    projectDesc: 'App para dispositivos móveis em que você pode buscar por receitas de pratos e drinks, salvar suas favoritas e muitas outras funcionalidades.',
+    projectDesc: 'App para dispositivos móveis em que você pode buscar por receitas'
+    + 'de pratos e drinks, salvar suas favoritas e muitas outras funcionalidades.',
     tags: ['React', 'CSS', 'Context API'],
     code: 'https://github.com/rafaelribeiro96/project-trivia-react-redux',
     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
@@ -20,7 +21,8 @@ export const projectsData = [
   {
     id: 2,
     projectName: 'Trybe Tunes',
-    projectDesc: 'Aplicação capaz de reproduzir músicas, criar lista de favoritas, editar perfil de usuário, consumindo dados de uma API.',
+    projectDesc: 'Aplicação capaz de reproduzir músicas, criar lista de favoritas,'
+    + 'editar perfil de usuário, consumindo dados de uma API.',
     tags: ['React', 'CSS'],
     code: 'https://github.com/rafaelribeiro96/project-trybetunes',
     demo: 'https://rafaelribeiro96.github.io/project-trybetunes/',
@@ -29,7 +31,8 @@ export const projectsData = [
   {
     id: 3,
     projectName: 'Trivia',
-    projectDesc: 'Foi desenvolvido um jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux.',
+    projectDesc: 'Foi desenvolvido um jogo de perguntas e respostas baseado no jogo'
+    + 'Trivia utilizando React e Redux.',
     tags: ['React', 'CSS', 'Redux'],
     code: 'https://github.com/rafaelribeiro96/project-trivia-react-redux',
     demo: 'https://rafaelribeiro96.github.io/project-trivia-react-redux/',
@@ -47,7 +50,8 @@ export const projectsData = [
   {
     id: 5,
     projectName: 'Star Wars Planets Search',
-    projectDesc: 'Aplicação com uma lista com filtros de planetas do universo de Star Wars usando Context API e Hooks para controlar os estados globais.',
+    projectDesc: 'Aplicação com uma lista com filtros de planetas do universo de'
+    + 'Star Wars usando Context API e Hooks para controlar os estados globais.',
     tags: ['React', 'Context API', 'React Hooks'],
     code: 'https://github.com/rafaelribeiro96/project-starwars-planets-search',
     demo: 'https://rafaelribeiro96.github.io/project-starwars-planets-search/',
