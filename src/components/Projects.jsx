@@ -71,7 +71,7 @@ export default function Projects() {
 
             {projectsData.length > 3 && (
               <div className="projects--viewAll">
-                <Link to="/projects">
+                <Link to="/projectPage">
                   <button type="button" className={ classes.viewAllBtn }>
                     View All
                     <HiArrowRight className={ classes.viewArr } />

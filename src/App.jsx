@@ -14,7 +14,7 @@ function App() {
       <ScrollToTop />
       <Switch>
         <Route exact path="/" component={ Main } />
-        <Route exact path="/projects" component={ ProjectPage } />
+        <Route exact path="/projectPage" component={ ProjectPage } />
         <Redirect to="/" />
       </Switch>
       <BackToTop />

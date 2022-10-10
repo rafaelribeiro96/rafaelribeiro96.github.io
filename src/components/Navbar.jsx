@@ -6,17 +6,16 @@ import React, { useContext, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import './Navbar.css';
 import {
-  Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl,
-  Drawer, IconButton, MenuItem, OutlinedInput, Select, Icon, Typography,
+  Box, Drawer, IconButton,
 } from '@mui/material';
-import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
+import { IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import { NavLink } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { themeData } from '../data/themeData';
 import { ThemeContext } from '../context/ThemeContext';
 import { headerData } from '../data/headerData';
@@ -43,11 +42,10 @@ export default function Navbar() {
         </h1>
         <div
           className="button-theme-option"
-          style={ { /* border: `3px solid ${theme.primary}`, */ color: theme.tertiary } }
+          style={ { color: theme.tertiary } }
         >
           <form
             className="theme-color-form"
-            /* style={ { color: theme.primary } } */
           >
             <label
               className="theme-color-checkbox-title"
@@ -108,6 +106,7 @@ export default function Navbar() {
                 role="button"
                 tabIndex="0"
                 aria-label="Close"
+                className="navlink-item"
               />
             </div>
           </Box>

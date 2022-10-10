@@ -25,7 +25,6 @@ export default function Main() {
       <Experience />
       <Contacts />
       <Footer />
-      Main
     </div>
 
   );
