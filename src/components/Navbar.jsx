@@ -159,29 +159,6 @@ export default function Navbar() {
 
           <Fade right>
             <NavLink
-              to="/#resume"
-              smooth
-              spy="true"
-              duration={ 2000 }
-              style={ { color: theme.primary } }
-              className="navlink-item"
-              onClick={ () => setIsDrawerOpen(false) }
-            >
-              <button
-                type="button"
-                className="button-item-drawer"
-                style={ { color: theme.primary } }
-              >
-                <HiDocumentText />
-                <span>
-                  Resumo
-                </span>
-              </button>
-            </NavLink>
-          </Fade>
-
-          <Fade right>
-            <NavLink
               to="/#skills"
               smooth
               spy="true"
@@ -221,6 +198,29 @@ export default function Navbar() {
                 <FaFolderOpen />
                 <span>
                   Projetos
+                </span>
+              </button>
+            </NavLink>
+          </Fade>
+
+          <Fade right>
+            <NavLink
+              to="/#resume"
+              smooth
+              spy="true"
+              duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
+            >
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
+                <HiDocumentText />
+                <span>
+                  Resumo
                 </span>
               </button>
             </NavLink>

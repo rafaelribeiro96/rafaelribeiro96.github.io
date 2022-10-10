@@ -108,8 +108,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             color: theme.tertiary80,
           } }
         >
-          {tags.map((tag) => (
-            <span key={ id }>{tag}</span>
+          {tags.map((tag, idd) => (
+            <span key={ idd }>{tag}</span>
           ))}
         </div>
       </div>

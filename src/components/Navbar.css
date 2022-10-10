@@ -31,7 +31,7 @@
 }
 
 .button-theme-option {
-  font-size: x-small;
+  font-size: small;
 }
 
 .button-theme-option input {
@@ -39,12 +39,12 @@
 }
 
 .button-theme-option select {
-  font-size: x-small;
+  font-size: small;
   margin-left: 5px;
 }
 
 .button-theme-option option {
-  font-size: x-small;
+  font-size: small;
 
   /* width: 1px; */
 }

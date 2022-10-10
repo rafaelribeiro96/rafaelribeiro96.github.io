@@ -125,14 +125,22 @@ export default function Landing() {
             <h1>{headerData.name}</h1>
             <p>{headerData.desciption}</p>
             <div className="landing-container-right-buttonContainer">
-              <button
-                type="button"
-                style={ useStyles.resumeBtn }
-                onMouseEnter={ handleMouseEnterResume }
-                onMouseLeave={ handleMouseLeaveResume }
+              <a
+                href={ headerData.resumePdf }
+                download="resume"
+                target="_blank"
+                rel="noreferrer"
               >
-                Download CV
-              </button>
+                <button
+                  type="button"
+                  style={ useStyles.resumeBtn }
+                  onMouseEnter={ handleMouseEnterResume }
+                  onMouseLeave={ handleMouseLeaveResume }
+                >
+                  Download CV
+                </button>
+
+              </a>
               <button
                 type="button"
                 style={ useStyles.contactBtn }
