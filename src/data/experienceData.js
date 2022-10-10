@@ -27,4 +27,4 @@ export const experienceData = [
     startYear: '2013',
     endYear: '2015',
   },
-];
+]; export default experienceData;

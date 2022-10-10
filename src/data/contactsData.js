@@ -4,4 +4,4 @@ export const contactsData = {
   address: 'Belo Horizonte, MG - Brasil',
 
   sheetAPI: 'https://sheetdb.io/api/v1/xjvsc9ie65m52',
-};
+}; export default contactsData;
