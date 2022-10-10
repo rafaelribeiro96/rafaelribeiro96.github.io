@@ -5,8 +5,13 @@ import React, { useContext, useState } from 'react';
 import './Navbar.css';
 import {
   Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl,
-  Drawer, IconButton, MenuItem, OutlinedInput, Select, Fade, Icon, Typography,
+  Drawer, IconButton, MenuItem, OutlinedInput, Select, Icon, Typography,
 } from '@mui/material';
+import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
+import { HiDocumentText } from 'react-icons/hi';
+import { BsFillGearFill } from 'react-icons/bs';
+import { MdPhone } from 'react-icons/md';
+import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import CloseIcon from '@mui/material/Icon';
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavLink } from 'react-router-dom';
@@ -97,6 +102,120 @@ export default function Navbar() {
               Side Panel
             </Typography>
           </Box>
+          <br />
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <IoHomeSharp />
+                <span>
+                  Home
+                </span>
+              </div>
+            </NavLink>
+          </button>
+
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/#about"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <FaUser />
+                <span>
+                  Sobre mim
+                </span>
+              </div>
+            </NavLink>
+          </button>
+
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/#resume"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <HiDocumentText />
+                <span>
+                  Resumo
+                </span>
+              </div>
+            </NavLink>
+          </button>
+
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/#skills"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <BsFillGearFill />
+                <span>
+                  Skills
+                </span>
+              </div>
+            </NavLink>
+          </button>
+
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/#projects"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <FaFolderOpen />
+                <span>
+                  Projetos
+                </span>
+              </div>
+            </NavLink>
+          </button>
+
+          <button
+            type="button"
+            className="button-item-drawer"
+          >
+            <NavLink
+              to="/#contacts"
+              smooth
+              spy="true"
+              duration={ 2000 }
+            >
+              <div>
+                <MdPhone />
+                <span>
+                  Contato
+                </span>
+              </div>
+            </NavLink>
+          </button>
         </Drawer>
       </div>
     </div>
