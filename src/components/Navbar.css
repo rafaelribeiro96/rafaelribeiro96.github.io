@@ -31,7 +31,7 @@
 }
 
 .button-theme-option {
-  font-size: small;
+  font-size: medium;
 }
 
 .button-theme-option input {
@@ -39,14 +39,14 @@
 }
 
 .button-theme-option select {
-  font-size: small;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  font-size: medium;
   margin-left: 5px;
 }
 
 .button-theme-option option {
-  font-size: small;
-
-  /* width: 1px; */
+  font-size: medium;
 }
 
 .theme-color-form {
@@ -81,11 +81,11 @@
 
 @media ( max-width : 1100px ) {
 
-  .navbar--container {
+  .navbar-container {
     padding: 0 2rem;
   }
 
-  .navbar--container > h1 {
+  .navbar-container > h1 {
     font-size: 2.2rem;
   }
 
@@ -109,7 +109,7 @@
     color: var(--primary-2);
   }
 
-  .navbar--container > h1 {
+  .navbar-container > h1 {
     font-size: 2rem;
   }
 
@@ -120,21 +120,58 @@
   .MuiDrawer-paper {
     border-radius: 0;
   }
+
+  .name-assinature {
+    display: none;
+  }
 }
 
+@media ( max-width : 600px ) {
 
-@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and ( device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
+  .nav-menu {
+    color: var(--primary-2);
+  }
+
+  .navbar-container > h1 {
+    font-size: 2rem;
+  }
+
+  .nav-menu:hover {
+    color: var(--primary-2);
+  }
+
+  .MuiDrawer-paper {
+    border-radius: 0;
+  }
+
+  .name-assinature {
+    display: none;
+  }
+}
+
+@media ( min-width : 320 px ) and ( max-width : 480px ) {
+
+  /* @media only screen and ( min-width : 320px ) and ( max-device-width : 480px ) and ( -webkit-device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
+ */
 
   .navbar {
     height: 5rem;
   }
 
-  .navbar--container {
+  .navbar-container {
     margin-top: 0;
     padding: 0 1rem;
   }
 
-  .navbar--container > h1 {
+  .navbar-container > h1 {
     font-size: 1.5rem;
   }
+
+  .name-assinature {
+    display: none;
+  }
+
+  /* .button-theme-option {
+    margin-right: 50%;
+  } */
 }

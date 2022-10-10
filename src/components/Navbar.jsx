@@ -18,7 +18,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { themeData } from '../data/themeData';
 import { ThemeContext } from '../context/ThemeContext';
-import { headerData } from '../data/headerData';
+/* import { headerData } from '../data/headerData'; */
 
 export default function Navbar() {
   const {
@@ -26,23 +26,26 @@ export default function Navbar() {
   } = useContext(ThemeContext);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-  const shortname = (name) => {
+  /* const shortname = (name) => {
     // eslint-disable-next-line no-magic-numbers
     if (name.length > 12) {
       return name.split(' ')[0];
     }
     return name;
-  };
+  }; */
 
   return (
     <div id="navbar" className="navbar">
       <div className="navbar-container">
-        <h1 style={ { color: theme.secondary } }>
+        {/* <h1
+          className="name-assinature"
+          style={ { color: theme.secondary } }
+        >
           {shortname(headerData.name)}
-        </h1>
+        </h1> */}
         <div
           className="button-theme-option"
-          style={ { color: theme.tertiary } }
+          style={ { color: theme.secondary } }
         >
           <form
             className="theme-color-form"
@@ -63,15 +66,19 @@ export default function Navbar() {
               className="theme-color-select-title"
               htmlFor="theme-color-select"
             >
-              Theme Color
-
+              Color
               <select
                 id="theme-color-select"
                 value={ themeColor }
                 onChange={ selectThemeColor }
+                style={ { color: theme.secondary } }
               >
                 {Object.keys(themeData).map((color) => (
-                  <option key={ color } value={ color }>
+                  <option
+                    key={ color }
+                    value={ color }
+                    style={ { backgroundColor: theme.primary } }
+                  >
                     {color.charAt(0).toUpperCase() + color.slice(1)}
                   </option>
                 ))}
