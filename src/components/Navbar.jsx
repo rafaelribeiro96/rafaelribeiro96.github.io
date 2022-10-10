@@ -1,7 +1,9 @@
+/* eslint-disable max-lines */
 /* eslint-disable react/jsx-max-depth */
 import React, { useContext, useState } from 'react';
 // import React, { useContext } from 'react';
 // import context from '../contexts/Context';
+import Fade from 'react-reveal/Fade';
 import './Navbar.css';
 import {
   Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl,
@@ -12,7 +14,7 @@ import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
-import CloseIcon from '@mui/material/Icon';
+import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import { NavLink } from 'react-router-dom';
 import { themeData } from '../data/themeData';
@@ -96,126 +98,157 @@ export default function Navbar() {
           anchor="right"
           open={ isDrawerOpen }
           onClose={ () => setIsDrawerOpen(false) }
+          className="drawer"
         >
-          <Box p={ 2 } width="250px" role="presentation" textAlign="center">
-            <Typography variant="h6" component="div">
-              Side Panel
-            </Typography>
+          <Box p={ 2 } width="250px" role="presentation" textAlign="right">
+            <div className="div-closebtn">
+              <CloseIcon
+                onClick={ () => setIsDrawerOpen(false) }
+                style={ { color: theme.primary } }
+                role="button"
+                tabIndex="0"
+                aria-label="Close"
+              />
+            </div>
           </Box>
           <br />
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+
+          <Fade right>
             <NavLink
               to="/"
               smooth
               spy="true"
               duration={ 2000 }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <IoHomeSharp />
                 <span>
                   Home
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
 
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+          <Fade right>
             <NavLink
               to="/#about"
               smooth
               spy="true"
               duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <FaUser />
                 <span>
                   Sobre mim
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
 
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+          <Fade right>
             <NavLink
               to="/#resume"
               smooth
               spy="true"
               duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <HiDocumentText />
                 <span>
                   Resumo
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
 
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+          <Fade right>
             <NavLink
               to="/#skills"
               smooth
               spy="true"
               duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <BsFillGearFill />
                 <span>
                   Skills
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
 
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+          <Fade right>
             <NavLink
-              to="/#projects"
+              to="#/#projects"
               smooth
               spy="true"
               duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <FaFolderOpen />
                 <span>
                   Projetos
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
 
-          <button
-            type="button"
-            className="button-item-drawer"
-          >
+          <Fade right>
             <NavLink
               to="/#contacts"
               smooth
               spy="true"
               duration={ 2000 }
+              style={ { color: theme.primary } }
+              className="navlink-item"
+              onClick={ () => setIsDrawerOpen(false) }
             >
-              <div>
+              <button
+                type="button"
+                className="button-item-drawer"
+                style={ { color: theme.primary } }
+              >
                 <MdPhone />
                 <span>
                   Contato
                 </span>
-              </div>
+              </button>
             </NavLink>
-          </button>
+          </Fade>
         </Drawer>
       </div>
     </div>
