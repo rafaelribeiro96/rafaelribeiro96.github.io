@@ -31,7 +31,7 @@
 }
 
 .button-theme-option {
-  font-size: small;
+  font-size: medium;
 }
 
 .button-theme-option input {
@@ -39,14 +39,14 @@
 }
 
 .button-theme-option select {
-  font-size: small;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  font-size: medium;
   margin-left: 5px;
 }
 
 .button-theme-option option {
-  font-size: small;
-
-  /* width: 1px; */
+  font-size: medium;
 }
 
 .theme-color-form {

@@ -45,7 +45,7 @@ export default function Navbar() {
         </h1> */}
         <div
           className="button-theme-option"
-          style={ { color: theme.tertiary } }
+          style={ { color: theme.secondary } }
         >
           <form
             className="theme-color-form"
@@ -71,9 +71,14 @@ export default function Navbar() {
                 id="theme-color-select"
                 value={ themeColor }
                 onChange={ selectThemeColor }
+                style={ { color: theme.secondary } }
               >
                 {Object.keys(themeData).map((color) => (
-                  <option key={ color } value={ color }>
+                  <option
+                    key={ color }
+                    value={ color }
+                    style={ { backgroundColor: theme.primary } }
+                  >
                     {color.charAt(0).toUpperCase() + color.slice(1)}
                   </option>
                 ))}
