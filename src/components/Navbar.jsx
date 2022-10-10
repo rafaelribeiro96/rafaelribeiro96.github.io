@@ -182,7 +182,7 @@ export default function Navbar() {
 
           <Fade right>
             <NavLink
-              to="#/#projects"
+              to="/#projects"
               smooth
               spy="true"
               duration={ 2000 }
