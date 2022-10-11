@@ -14,8 +14,8 @@ export const projectsData = [
     projectDesc: 'App para dispositivos móveis em que você pode buscar por receitas'
     + 'de pratos e drinks, salvar suas favoritas e muitas outras funcionalidades.',
     tags: ['React', 'CSS', 'Context API'],
-    code: 'https://github.com/rafaelribeiro96/project-trivia-react-redux',
-    demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+    code: 'https://github.com/rafaelribeiro96/recipes-app',
+    demo: 'https://rafaelribeiro96.github.io/recipes-app/#/',
     image: one,
   },
   {
