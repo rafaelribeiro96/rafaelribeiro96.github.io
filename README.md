@@ -1,5 +1,3 @@
-# Teste a aplicação: https://rafaelribeiro96.github.io/#/
-
 ## Conteúdo :scroll: <!-- no toc -->
 - [Seções :bookmark:](#seções-bookmark)
 - [Configurações :art:](#configurações-art)
@@ -12,6 +10,8 @@
 - [Contributors :man_technologist::woman_technologist:](#contributors-man_technologistwoman_technologist)
 
 <br />
+
+# Teste a aplicação: https://rafaelribeiro96.github.io/#/
 
 # Seções :bookmark:
 - HOME
