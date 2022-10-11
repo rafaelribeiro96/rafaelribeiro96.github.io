@@ -73,7 +73,7 @@ export default function Projects() {
               <div className="projects--viewAll">
                 <Link to="/projectPage">
                   <button type="button" className={ classes.viewAllBtn }>
-                    View All
+                    Ver todos
                     <HiArrowRight className={ classes.viewArr } />
                   </button>
                 </Link>

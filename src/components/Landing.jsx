@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaGithub,
 } from 'react-icons/fa';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { ThemeContext } from '../context/ThemeContext';
 
 import { headerData } from '../data/headerData';
@@ -141,14 +142,22 @@ export default function Landing() {
                 </button>
 
               </a>
-              <button
-                type="button"
-                style={ useStyles.contactBtn }
-                onMouseEnter={ handleMouseEnterContact }
-                onMouseLeave={ handleMouseLeaveContact }
+              <NavLink
+                to="/#contacts"
+                smooth
+                spy="true"
+                duration={ 2000 }
               >
-                Contato
-              </button>
+                <button
+                  type="button"
+                  style={ useStyles.contactBtn }
+                  onMouseEnter={ handleMouseEnterContact }
+                  onMouseLeave={ handleMouseLeaveContact }
+                  to="/#contacts"
+                >
+                  Contato
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>

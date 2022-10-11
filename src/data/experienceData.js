@@ -9,14 +9,14 @@ export const experienceData = [
   {
     id: 2,
     company: 'Decio Freire Advogados',
-    jobtitle: 'Advogado trabalhista',
+    jobtitle: 'Advogado Trabalhista',
     startYear: '2020',
     endYear: '2021',
   },
   {
     id: 3,
     company: 'Salão Ana Araújo/Kiosk LOréal',
-    jobtitle: 'Auxiliar administrativo',
+    jobtitle: 'Auxiliar Administrativo',
     startYear: '2015',
     endYear: '2019',
   },

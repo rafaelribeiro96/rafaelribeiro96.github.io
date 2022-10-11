@@ -24,7 +24,7 @@ export const educationData = [
     id: 4,
     institution: 'Polimig',
     course: 'Técnico de Informática',
-    startYear: '2013',
-    endYear: '2011',
+    startYear: '2011',
+    endYear: '2013',
   },
 ]; export default educationData;
