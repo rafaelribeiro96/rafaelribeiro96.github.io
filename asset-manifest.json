@@ -59,6 +59,7 @@
     "static/media/docker.svg": "/static/media/docker.a6221ab3e1802ecb0dbf7045de66c953.svg",
     "static/media/jest.svg": "/static/media/jest.ace5e466021d20d3d2d49724654a4cf8.svg",
     "static/media/mongoDB.svg": "/static/media/mongoDB.6c6da70249bd055e32474d63755dd3db.svg",
+    "index.html": "/index.html",
     "static/media/python.svg": "/static/media/python.cf32ad96e2819085c41578fb9989a766.svg",
     "static/media/typescript.svg": "/static/media/typescript.31f8fee8ebb12b8547b26c234bcd839f.svg",
     "static/media/nodeJs.svg": "/static/media/nodeJs.41641761ef1ae0c30404f3e31a80d6f2.svg",
@@ -71,7 +72,6 @@
     "static/media/expImgWhite.svg": "/static/media/expImgWhite.0b896d9c7a26ec4ee16cf4e131c9902e.svg",
     "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
-    "index.html": "/index.html",
     "main.0f98522e.css.map": "/static/css/main.0f98522e.css.map",
     "main.5747f97c.js.map": "/static/js/main.5747f97c.js.map"
   },
