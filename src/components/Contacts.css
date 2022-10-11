@@ -1,3 +1,4 @@
+/* stylelint-disable max-line-length */
 .contacts {
   align-items: flex-start;
   display: flex;
@@ -62,7 +63,6 @@
 
 
 .form-input {
-  border-radius: 50px;
   border-radius: 20px;
   box-sizing: border-box;
   height: 50px;
@@ -75,7 +75,6 @@
 
 
 .form-message {
-  border-radius: 50px;
   border-radius: 20px;
   box-sizing: border-box;
   height: 150px;
@@ -99,6 +98,16 @@
   justify-content: space-evenly;
   outline: none;
   width: 140px;
+}
+
+.personal-details p {
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 110%;
+  margin-left: 1.5rem;
+  width: 45%;
+  word-break: break-word;
 }
 
 .submit-btn button p {
@@ -145,15 +154,6 @@
   width: 100%;
 }
 
-.personal-details p {
-  font-family: var(--primaryFont);
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 110%;
-  margin-left: 1.5rem;
-  width: 45%;
-  word-break: break-word;
-}
 
 .socialmedia-icons {
   align-items: center;
@@ -291,7 +291,7 @@
   .submit-btn { align-self: center;}
 }
 
-@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and ( -webkit-device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
+@media only screen and ( min-width : 320px ) and ( max-width : 480px ) and ( device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
 
   .contacts-details {
     padding: 0;
