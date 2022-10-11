@@ -1,0 +1,18 @@
+.footer {
+  align-items: center;
+  display: flex;
+  font-family: 'var(--primaryFont)' , sans-serif;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer p {
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer p span {
+  font-size: 24px;
+}
