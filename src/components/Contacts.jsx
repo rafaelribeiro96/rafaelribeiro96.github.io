@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable sonarjs/no-duplicate-string */
+/* eslint-disable sonarjs/cognitive-complexity */
 /* eslint-disable react-func/max-lines-per-function */
 /* eslint-disable react/jsx-max-depth */
 /* eslint-disable max-lines */
@@ -26,21 +27,17 @@ import './Contacts.css';
 
 export default function Contacts() {
   const [open, setOpen] = useState(false);
-
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-
   const [success, setSuccess] = useState(false);
   const [errMsg, setErrMsg] = useState('');
-
   const { theme } = useContext(ThemeContext);
 
   const handleClose = (event, reason) => {
     if (reason === 'clickaway') {
       return;
     }
-
     setOpen(false);
   };
 
@@ -138,7 +135,6 @@ export default function Contacts() {
           console.log('success');
           setSuccess(true);
           setErrMsg('');
-
           setName('');
           setEmail('');
           setMessage('');
