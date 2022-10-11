@@ -1,6 +1,6 @@
 {
-  "homepage": "https://rafaelribeiro96.github.io/new-portfolio",
-  "name": "new-portfolio",
+  "homepage": "https://rafaelribeiro96.github.io/",
+  "name": "rafaelribeiro96.github.io",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -30,7 +30,7 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "!src/index.js"
+      "!src/index.jsx"
     ]
   },
   "scripts": {
