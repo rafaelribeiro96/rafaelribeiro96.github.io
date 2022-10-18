@@ -5,6 +5,7 @@ import './Landing.css';
 import {
   FaLinkedin,
   FaGithub,
+  FaTwitter,
 } from 'react-icons/fa';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { ThemeContext } from '../context/ThemeContext';
@@ -105,6 +106,20 @@ export default function Landing() {
                   style={ { color: theme.secondary } }
                   aria-label="GitHub"
                 />
+              </a>
+            )}
+            {socialsData.twitter && (
+              <a
+                href={ socialsData.twitter }
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTwitter
+                  className="landing-social"
+                  style={ { color: theme.secondary } }
+                  aria-label="Twitter"
+                />
+
               </a>
             )}
           </div>
