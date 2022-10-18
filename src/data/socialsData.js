@@ -4,7 +4,7 @@ export const socialsData = {
   linkedIn: 'https://www.linkedin.com/in/rafaelfeliperibeiro/',
   instagram: 'https://www.instagram.com/faelgalo96',
   codepen: 'https://codepen.io/',
-  twitter: 'https://twitter.com/',
+  twitter: 'https://twitter.com/faelgalo10/',
   reddit: 'https://www.reddit.com/user/',
   blogger: 'https://www.blogger.com/',
   medium: 'https://medium.com/@',

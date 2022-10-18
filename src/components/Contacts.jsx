@@ -13,7 +13,7 @@ import { makeStyles } from '@mui/styles';
 import {
   FaLinkedinIn,
   FaGithub,
-  FaInstagram,
+  FaTwitter,
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
@@ -327,14 +327,14 @@ export default function Contacts() {
                   <FaLinkedinIn aria-label="LinkedIn" />
                 </a>
               )}
-              {socialsData.instagram && (
+              {socialsData.twitter && (
                 <a
-                  href={ socialsData.instagram }
+                  href={ socialsData.twitter }
                   target="_blank"
                   rel="noreferrer"
                   className={ classes.socialIcon }
                 >
-                  <FaInstagram aria-label="Instagram" />
+                  <FaTwitter aria-label="Twitter" />
                 </a>
               )}
             </div>
