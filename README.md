@@ -28,7 +28,7 @@
 
 # Configurações :art:
 <div align="left">
-  <img src="https://i.ibb.co/6HYyZqj/configport.png" height="100px" alt="config" border="0"></a>
+   <a href="https://rafaelribeiro96.github.io/" target="_blank"><img src="https://s9.gifyu.com/images/gif-mudanca-de-cor-portfolio-rafael-ribeiro.gif" alt="gif-mudanca-de-cor-portfolio-rafael-ribeiro.gif" border="0" width="400"/></a>
 </div>
 
 <br />
