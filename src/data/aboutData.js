@@ -6,4 +6,3 @@ export const aboutData = {
   description3: 'O mundo da Tecnologia está em constante transformação, e é por isso que na Trybe estudo as seguintes Ferramentas e Tecnologias: JavaScript, HTML 5, Css, Git, React, Redux, Figma, Jest, Docker, MySql, NodeJs, TypeScript, MongoDb e Python.',
   image: 1,
 }; export default aboutData;
-
