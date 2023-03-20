@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f98522e.css",
-    "main.js": "/static/js/main.8e9283cd.js",
+    "main.js": "/static/js/main.1910876b.js",
     "static/media/four.svg": "/static/media/four.797cac62273af3693cd624c5f58e33b5.svg",
     "static/media/voevo.png": "/static/media/voevo.fd8d1f2761a892eb0a4c.png",
     "static/media/tryunfo.png": "/static/media/tryunfo.69eee330f322b395a9e2.png",
@@ -20,7 +20,7 @@
     "static/media/expYellow.svg": "/static/media/expYellow.22be417c6d1c281c3b4b6ee0e80f0a5f.svg",
     "static/media/five.svg": "/static/media/five.89b924ebc79f37d920813b8e786786ba.svg",
     "static/media/trivia.png": "/static/media/trivia.93d4eb2181f19219bc7c.png",
-    "static/media/resume.pdf": "/static/media/resume.79e1815dd72681811a72.pdf",
+    "static/media/resume.pdf": "/static/media/resume.46f149cffb7e80865174.pdf",
     "static/media/BestermindRegular.ttf": "/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
     "static/media/contactsBlack.svg": "/static/media/contactsBlack.888fb5429daafbdcf2e79d16adf73902.svg",
     "static/media/contactsBlue.svg": "/static/media/contactsBlue.e1eaa2515ae80474560d0bad23694e02.svg",
@@ -74,10 +74,10 @@
     "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "main.0f98522e.css.map": "/static/css/main.0f98522e.css.map",
-    "main.8e9283cd.js.map": "/static/js/main.8e9283cd.js.map"
+    "main.1910876b.js.map": "/static/js/main.1910876b.js.map"
   },
   "entrypoints": [
     "static/css/main.0f98522e.css",
-    "static/js/main.8e9283cd.js"
+    "static/js/main.1910876b.js"
   ]
 }
