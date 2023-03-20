@@ -1,15 +1,18 @@
 export const skillsData = [
+  'React',
+  'Javascript',
   'HTML',
   'CSS',
-  'Javascript',
   'Jest',
-  'React',
   'Redux',
   'RTL',
   'Docker',
   'MySQL',
   'Node JS',
   'Typescript',
+  'Python',
+  'Git',
+  'MongoDB',
 ];
 
 export default skillsData;

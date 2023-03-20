@@ -1,4 +1,6 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 import one from '../assets/png/projects/voevo.png';
+import nine from '../assets/png/projects/pokedex.png';
 import two from '../assets/png/projects/trybetunes.png';
 import three from '../assets/png/projects/trivia.png';
 import four from '../assets/svg/projects/four.svg';
@@ -20,6 +22,18 @@ export const projectsData = [
   },
   {
     id: 2,
+    projectName: 'Pokedex',
+    projectDesc: 'Pokedex é um projeto desenvolvido utilizando React,'
+    + 'Hooks e a API PokéApi e estilizado com CSS puro.'
+    + 'Com intuito de aprofundar meus conhecimentos em React,'
+    + 'Hooks e consumo de APIs externas.',
+    tags: ['React', 'CSS', 'Context API', 'React Hooks'],
+    code: 'https://github.com/rafaelribeiro96/pokedex-test',
+    demo: 'https://pokedexrr.netlify.app/',
+    image: nine,
+  },
+  {
+    id: 3,
     projectName: 'Trybe Tunes',
     projectDesc: 'Aplicação capaz de reproduzir músicas, criar lista de favoritas,'
     + 'editar perfil de usuário, consumindo dados de uma API.',
@@ -29,7 +43,7 @@ export const projectsData = [
     image: two,
   },
   {
-    id: 3,
+    id: 4,
     projectName: 'Trivia',
     projectDesc: 'Foi desenvolvido um jogo de perguntas e respostas baseado no jogo'
     + 'Trivia utilizando React e Redux.',
@@ -39,7 +53,7 @@ export const projectsData = [
     image: three,
   },
   {
-    id: 4,
+    id: 5,
     projectName: 'Wallet',
     projectDesc: 'Carteira de controle de gastos com conversor de moedas.',
     tags: ['React', 'Redux'],
@@ -48,7 +62,7 @@ export const projectsData = [
     image: four,
   },
   {
-    id: 5,
+    id: 6,
     projectName: 'Star Wars Planets Search',
     projectDesc: 'Aplicação com uma lista com filtros de planetas do universo de'
     + 'Star Wars usando Context API e Hooks para controlar os estados globais.',
@@ -58,7 +72,7 @@ export const projectsData = [
     image: five,
   },
   {
-    id: 6,
+    id: 7,
     projectName: 'Shopping Cart',
     projectDesc: 'Carrinho de compras consumindo API do Mercado Livre',
     tags: ['JavaScript', 'CSS'],
@@ -67,7 +81,7 @@ export const projectsData = [
     image: six,
   },
   {
-    id: 7,
+    id: 8,
     projectName: 'Trybe Trunfo',
     projectDesc: 'Criador de cartas para jogo estilo Super Trunfo',
     tags: ['React', 'CSS'],
@@ -76,7 +90,7 @@ export const projectsData = [
     image: seven,
   },
   {
-    id: 8,
+    id: 9,
     projectName: 'Solar System',
     projectDesc: 'Aplicação para testar a utilização de JSX no React',
     tags: ['React'],
