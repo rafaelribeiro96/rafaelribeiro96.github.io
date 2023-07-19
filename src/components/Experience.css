@@ -179,7 +179,8 @@
 
 }
 
-@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and ( -webkit-device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
+@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and
+( -webkit-device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
 
 }
 

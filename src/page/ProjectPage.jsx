@@ -83,7 +83,7 @@ export default function ProjectPage() {
         </Link>
         <h1 style={ { color: theme.secondary } }>Projects</h1>
       </div>
-      <div className="projectPage-container">
+      <div className="projectPage-container projectPage-Container">
         <div className="projectPage-search">
           <input
             type="text"

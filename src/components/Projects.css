@@ -67,11 +67,6 @@
 }
 
 
-@media ( min-width : 992px ) and ( max-width : 1380px ) {
-
-}
-
-
 @media screen and ( max-width : 992px ) {
 
   .projects--bodyContainer {
@@ -109,17 +104,3 @@
     transform: translateX(-50%);
   }
 }
-
-/* @media screen and ( max-width : 400px ) {
-
-}
-
-@media only screen and ( minwidth : 320px ) and ( maxwidth : 480px ) and ( device-pixel-ratio : 2 ) and ( device-aspect-ratio : 2/3 ) {
-
-}
-
-
-@media only screen and ( device-width : 768px ) {
-
-}
- */
