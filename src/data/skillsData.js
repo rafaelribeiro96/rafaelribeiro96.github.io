@@ -1,5 +1,6 @@
 export const skillsData = [
   'React',
+  'Next JS',
   'Javascript',
   'HTML',
   'CSS',
@@ -13,6 +14,8 @@ export const skillsData = [
   'Python',
   'Git',
   'MongoDB',
+  'Tailwind',
+  'Figma',
 ];
 
 export default skillsData;

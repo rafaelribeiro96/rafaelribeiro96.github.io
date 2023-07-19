@@ -2,7 +2,7 @@ export const experienceData = [
   {
     id: 1,
     company: 'Base2 Tecnologia',
-    jobtitle: 'Desenvolvedor Javascript',
+    jobtitle: 'Desenvolvedor Front-End',
     startYear: '2023',
     endYear: 'Presente',
   },

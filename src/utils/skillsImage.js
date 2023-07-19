@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 /* eslint max-lines: off */
 /* eslint-disable max-lines-per-function */
 
@@ -15,6 +16,9 @@ import jest from '../assets/svg/skills/jest.svg';
 import rtl from '../assets/svg/skills/rtl.svg';
 import redux from '../assets/svg/skills/redux.svg';
 import nodejs from '../assets/svg/skills/nodeJs.svg';
+import nextjs from '../assets/svg/skills/nextJS.svg';
+import figma from '../assets/svg/skills/figma.svg';
+import tailwind from '../assets/svg/skills/tailwind.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -47,6 +51,12 @@ export const skillsImage = (skill) => {
     return redux;
   case 'node js':
     return nodejs;
+  case 'next js':
+    return nextjs;
+  case 'figma':
+    return figma;
+  case 'tailwind':
+    return tailwind;
   default:
     return null;
   }

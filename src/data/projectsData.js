@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable sonarjs/no-duplicate-string */
 import one from '../assets/png/projects/voevo.png';
 import nine from '../assets/png/projects/pokedex.png';
@@ -8,20 +9,30 @@ import five from '../assets/svg/projects/five.svg';
 import six from '../assets/png/projects/shoppingcart.png';
 import seven from '../assets/png/projects/tryunfo.png';
 import eight from '../assets/png/projects/solarsystem.png';
+import ten from '../assets/png/projects/rafaeldev.png';
+import eleven from '../assets/png/projects/glayderibeiro.png';
 
 export const projectsData = [
   {
     id: 1,
-    projectName: 'App de Receitas',
-    projectDesc: 'App para dispositivos móveis em que você pode buscar por receitas'
-    + 'de pratos e drinks, salvar suas favoritas e muitas outras funcionalidades.',
-    tags: ['React', 'CSS', 'Context API'],
-    code: 'https://github.com/rafaelribeiro96/recipes-app',
-    demo: 'https://rafaelribeiro96.github.io/recipes-app/#/',
-    image: one,
+    projectName: 'Confeitaria Glayde Ribeiro',
+    projectDesc: 'Site comercial para divulgação de serviços da confeitaria Glayde Ribeiro.',
+    tags: ['NextJs', 'React', 'CSS', 'NodeJs', 'MongoDb'],
+    code: 'https://github.com/rafaelribeiro96/',
+    demo: 'https://www.glayderibeiro.com/',
+    image: eleven,
   },
   {
     id: 2,
+    projectName: 'Rafael Dev',
+    projectDesc: 'Site comercial para divulgação de serviços de desenvolvimento web.',
+    tags: ['NextJs', 'React', 'CSS', 'NodeJs', 'MongoDb'],
+    code: 'https://github.com/rafaelribeiro96/',
+    demo: 'https://www.rafaeldev.com/',
+    image: ten,
+  },
+  {
+    id: 3,
     projectName: 'Pokedex',
     projectDesc: 'Pokedex é um projeto desenvolvido utilizando React,'
     + 'Hooks e a API PokéApi e estilizado com CSS puro.'
@@ -33,7 +44,17 @@ export const projectsData = [
     image: nine,
   },
   {
-    id: 3,
+    id: 4,
+    projectName: 'App de Receitas',
+    projectDesc: 'App para dispositivos móveis em que você pode buscar por receitas'
+    + ' de pratos e drinks, salvar suas favoritas e muitas outras funcionalidades.',
+    tags: ['React', 'CSS', 'Context API'],
+    code: 'https://github.com/rafaelribeiro96/recipes-app',
+    demo: 'https://rafaelribeiro96.github.io/recipes-app/#/',
+    image: one,
+  },
+  {
+    id: 5,
     projectName: 'Trybe Tunes',
     projectDesc: 'Aplicação capaz de reproduzir músicas, criar lista de favoritas,'
     + 'editar perfil de usuário, consumindo dados de uma API.',
@@ -43,7 +64,7 @@ export const projectsData = [
     image: two,
   },
   {
-    id: 4,
+    id: 6,
     projectName: 'Trivia',
     projectDesc: 'Foi desenvolvido um jogo de perguntas e respostas baseado no jogo'
     + 'Trivia utilizando React e Redux.',
@@ -53,7 +74,7 @@ export const projectsData = [
     image: three,
   },
   {
-    id: 5,
+    id: 7,
     projectName: 'Wallet',
     projectDesc: 'Carteira de controle de gastos com conversor de moedas.',
     tags: ['React', 'Redux'],
@@ -62,7 +83,7 @@ export const projectsData = [
     image: four,
   },
   {
-    id: 6,
+    id: 8,
     projectName: 'Star Wars Planets Search',
     projectDesc: 'Aplicação com uma lista com filtros de planetas do universo de'
     + 'Star Wars usando Context API e Hooks para controlar os estados globais.',
@@ -72,7 +93,7 @@ export const projectsData = [
     image: five,
   },
   {
-    id: 7,
+    id: 9,
     projectName: 'Shopping Cart',
     projectDesc: 'Carrinho de compras consumindo API do Mercado Livre',
     tags: ['JavaScript', 'CSS'],
@@ -81,7 +102,7 @@ export const projectsData = [
     image: six,
   },
   {
-    id: 8,
+    id: 10,
     projectName: 'Trybe Trunfo',
     projectDesc: 'Criador de cartas para jogo estilo Super Trunfo',
     tags: ['React', 'CSS'],
@@ -90,7 +111,7 @@ export const projectsData = [
     image: seven,
   },
   {
-    id: 9,
+    id: 11,
     projectName: 'Solar System',
     projectDesc: 'Aplicação para testar a utilização de JSX no React',
     tags: ['React'],
