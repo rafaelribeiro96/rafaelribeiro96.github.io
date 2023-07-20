@@ -139,7 +139,7 @@ export default function Landing() {
           >
             <h6>{headerData.title}</h6>
             <h1>{headerData.name}</h1>
-            <p>{headerData.desciption}</p>
+            <p>{headerData.description}</p>
             <div className="landing-container-right-buttonContainer">
               <a
                 href={ headerData.resumePdf }

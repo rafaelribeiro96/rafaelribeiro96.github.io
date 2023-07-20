@@ -109,6 +109,11 @@
     color: var(--primary-2);
   }
 
+  .navbar-container {
+    position: absolute;
+    top: 5px;
+  }
+
   .navbar-container > h1 {
     font-size: 2rem;
   }

@@ -180,14 +180,25 @@
 
 @media ( max-width : 600px ) {
 
+  .landing {
+    height: auto;
+  }
+
   .landing-container {
     flex-direction: column;
     justify-content: space-between;
   }
 
   .landing-container-left {
-    flex: initial;
-    height: 30%;
+    min-height: 120px;
+    width: 100%;
+  }
+
+  .landing-container-left-content {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
     width: 100%;
   }
 
@@ -212,8 +223,14 @@
     border: 8px solid #eaeaea;
     height: 200px;
     left: 50%;
-    top: 30%;
+    margin-top: 230px;
+    position: absolute;
+    top: 0%;
     transform: translate(-50%, -50%);
+
+    /* position: absolute;
+  transform: translateX(-50%);
+  transition: opacity 0.3s; */
   }
 
   .landing-container-right-buttonContainer button:nth-child( 2 ) {
@@ -225,13 +242,13 @@
 @media ( max-width : 599px ) {
 
   .landing-container-right-content {
-    margin-top: 200px;
+    margin-top: 230px;
   }
 
-  .landing-container-left {
+  /* .landing-container-left {
     align-items: center;
     justify-content: center;
-  }
+  } */
 }
 
 
@@ -253,7 +270,7 @@
 
 }
 
-@media ( max-width : 370px ) {
+/* @media ( max-width : 370px ) {
 
   .landing-container-right-content {
     margin-top: 250px;
@@ -272,29 +289,5 @@
   .landing-container-right-content {
     margin-top: 300px;
   }
-
-
-  /* @media ( min-width : 320px ) and ( max-width : 480px ) { */
-
-  /* @media ( min-width : 320px ) and ( max-width : 480px ) and ( device-aspect-ratio : 2/3 ) {
-
-
-  .landing {
-    height: 100%;
-  }
-
-  .landing-container-left {
-    align-items: flex-start;
-    border: solid 3px red;
-    justify-content: left;
-  }
-
-  .landing-img {
-    height: 150px;
-    left: 50%;
-    top: 20%;
-  }
 }
-
  */
-}
